@@ -1,0 +1,16 @@
+{
+  "name": "deploy-uniswapv2-template",
+  "version": "1.0.0",
+  "description": "deploy uniswap contract",
+  "main": "truffle-config.js",
+  "scripts": {
+    "compile": "truffle compile",
+    "truffle": "truffle migrate -f 2 --network brcTestnet --verbose-rpc --reset"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^1.4.2"
+  }
+}
