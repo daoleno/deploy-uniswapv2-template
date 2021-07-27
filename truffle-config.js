@@ -10,7 +10,7 @@ module.exports = {
       provider: () =>
         new HDWalletProvider(
           MNEMONIC,
-          `https://mainnet.infura.io/v3/` + INFURA_API_KEY
+          `wss://mainnet.infura.io/ws/v3/` + INFURA_API_KEY
         ),
       network_id: 1,
       gas: 8000000,
@@ -23,7 +23,7 @@ module.exports = {
       provider: () =>
         new HDWalletProvider(
           MNEMONIC,
-          `https://ropsten.infura.io/v3/` + INFURA_API_KEY
+          `wss://ropsten.infura.io/ws/v3/` + INFURA_API_KEY
         ),
       network_id: 3,
       gas: 8000000,
@@ -36,7 +36,7 @@ module.exports = {
       provider: () =>
         new HDWalletProvider(
           MNEMONIC,
-          `https://goerli.infura.io/v3/` + INFURA_API_KEY
+          `wss://goerli.infura.io/ws/v3/` + INFURA_API_KEY
         ),
       network_id: 5,
       gas: 5500000,
