@@ -44,7 +44,3 @@ Deploy to ethereum network
 ```sh
 $ truffle migrate -f 2 --network goerli --compile-none
 ```
-
-## Donate
-
-ETH: 0x67CF3bF40b2b3b3D68F6c361AEf81F8AEb2dB637
